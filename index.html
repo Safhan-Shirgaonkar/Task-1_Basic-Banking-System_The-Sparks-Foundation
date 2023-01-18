@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+</head>
+<body onload="loader()">
+
+  
+  <div id="loading"></div>
+
+    <!-- navbar -navigation bar  -->  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">Easy Bank</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">AboutUs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./customers.html">Customers</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!-- navbar ends here  -->
+
+    <!-- here content starts here -->
+    <br/>
+    <br/>
+    
+    <div class="container-fluid hero-content">
+      <div class="row align-items-center">
+        <div class="col-md-6 col-sm-12 text-center" data-aos="fade-up">
+          <h1 style="color: orangered">Easy Bank</h1>
+          <marquee style="color: rgb(255, 0, 0);">Note: After sucessfull transactions you will recieve an Transaction reciept on your registered mail id</marquee>
+          <h3>Do your Transactions Easily and safely with Easy Bank</h3>
+          <p class="lead muted">Easy Way To Transfer Money</p>
+          <p>Welcome To Easy Bank!</p>
+          <br>
+          <br>
+          <a class="get-started" href="./customers.html">Transfer Money</a>
+        </div>
+        <div class="col-md-6 col-sm-12 text-center" data-aos="fade-left">
+          <div class="hero-img-div">
+            <img class="hero-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_wW4MkLYzF3MnTBnJ5iKWds2D1YE2XC55TuBnRSEZxA&s">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- here content ends here -->
+
+
+
+
+    <!-- footer starts here -->
+    <div class="footer" style="margin-top: 25px;">
+   <div class="container" id="Foodie">
+
+<h1 style="color:red;font-family: Lucida Handwriting; margin-top: 55px;font-size: 30px;font-weight: 500;  box-shadow:2px 6px 18px rgba(66,57,238,0.3);
+" ><b>Easy Bank</b></h1>
+</div>
+<br/>
+<h4 ><pre style="color: orangered;">   Benifits Of Doing Transactions with Easy Bank:</pre></h4>
+<p><pre>   1.Easy Online Transactions</pre></p>
+<p><pre>   2.Fast And Safe Online Transactions</pre></p>
+<p><pre>   3.Easily available customer support if facing any difficulty in Transactions</pre></p>
+ 
+  
+        
+          <a href="C:\Users\SAFHAN\Desktop\Programming\Internship Coding\The Spark Foundation\Project 1 Basic Banking System\aboutus.html" class="btn btn-danger btn-lg">       About EasyBank     </a>
+
+         <h3 ><pre style="color:orangered">   Contact Us 
+          <a href="https://www.linkedin.com/in/safhan-shirgaonkar/" class="fa fa-linkedin"></a>
+          <a href="shirgaonkar2003@gmail.com" class="fa fa-gmail">✉</a></pre></h3>
+        
+
+        
+        <br>
+        <br>
+        
+      </div>
+      
+    </div>
+
+    
+  </div>
+  
+</div>
+    <!-- footer ends here -->
+
+    <!-- spalsh screen js -->
+    <script>
+      var preloader = document.getElementById("loading");
+      function loader(){
+        preloader.style.display = 'none';
+      }
+    </script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+    <!-- aos data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+      });
+    </script>
+    
+</body>
+</html>
